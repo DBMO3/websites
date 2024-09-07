@@ -3,11 +3,19 @@ function openWhatsApp() {
     window.open("https://wa.me/527361033455");
 }
 
-function DarkModeToggle() {
-    const darkModeSwitch = document.getElementById('darkModeSwitch');
-    const body = document.body;
-
-    darkModeSwitch.addEventListener('change', () => {
-        body.classList.toggle('dark-mode');
-    });
+// Open Instagram
+function openInstagram() {
+    window.open("https://www.instagram.com/reny_zumbaescorpion/");
 }
+
+// Open facebook
+function openFacebook() {
+    window.open("https://www.facebook.com/rene.bernal.583");
+}
+
+// Open Call
+function openCall() {
+    window.open("tel:+527361033455");
+}
+
+
