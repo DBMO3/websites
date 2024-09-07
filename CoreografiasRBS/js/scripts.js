@@ -8,14 +8,12 @@ function openInstagram() {
     window.open("https://www.instagram.com/reny_zumbaescorpion/");
 }
 
-// Open facebook
+// Open Facebook
 function openFacebook() {
     window.open("https://www.facebook.com/rene.bernal.583");
-}
+}   
 
 // Open Call
 function openCall() {
-    window.open("tel:+527361033455");
+    window.open("tel:7361033455");
 }
-
-
