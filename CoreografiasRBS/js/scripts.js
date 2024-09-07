@@ -1,11 +1,13 @@
-/*!
-* Start Bootstrap - Personal v1.0.1 (https://startbootstrap.com/template-overviews/personal)
-* Copyright 2013-2023 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-personal/blob/master/LICENSE)
-*/
-// This file is intentionally blank
-// Use this file to add JavaScript to your project
-
+// Open WhatsApp
 function openWhatsApp() {
     window.open("https://wa.me/527361033455");
+}
+
+function DarkModeToggle() {
+    const darkModeSwitch = document.getElementById('darkModeSwitch');
+    const body = document.body;
+
+    darkModeSwitch.addEventListener('change', () => {
+        body.classList.toggle('dark-mode');
+    });
 }
