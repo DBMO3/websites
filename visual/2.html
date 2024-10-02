@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Tienda</title>
+    <style>
+        body {
+            font-family: Verdana, sans-serif;
+            background-color: #e0e0e0;
+            color: #444;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #555;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            text-align: center;
+            margin: 10px 0;
+            background-color: black;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .product {
+            background-color: #ddd;
+            padding: 15px;
+            margin: 10px 0;
+        }
+
+        button {
+            background-color: #777;
+            color: #fff;
+            border: none;
+            padding: 8px 15px;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #555;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 600px) {
+            nav a {
+                display: block;
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Super Tienda</h1>
+    </header>
+    <nav>
+        <a href="#">Inicio</a> | 
+        <a href="#">Productos</a> | 
+        <a href="#">Ofertas</a>
+    </nav>
+    <main class="content">
+        <section class="product">
+            <h2>Producto 1</h2>
+            <p>Descripción breve del producto 1.</p>
+            <button>Comprar</button>
+        </section>
+        <section class="product">
+            <h2>Producto 2</h2>
+            <p>Descripción breve del producto 2.</p>
+            <button>Comprar</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Super Tienda. Todos los derechos reservados.</p>
+</html>

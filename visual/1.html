@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interfaz Buena</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #0066cc;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .hero {
+            background-color: #e6f2ff;
+            padding: 50px;
+            text-align: center;
+        }
+
+        .content {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .card {
+            background-color: #fff;
+            padding: 15px;
+            margin: 15px 0;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        button {
+            background-color: #0066cc;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #004a99;
+        }
+
+        footer {
+            background-color: #0066cc;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 600px) {
+            nav ul {
+                flex-direction: column;
+                gap: 10px;
+            }
+
+            .hero {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>TechStore - Electrónica y Tecnología</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h2>Lo último en Tecnología</h2>
+            <p>Explora los dispositivos electrónicos más avanzados del mercado con descuentos exclusivos.</p>
+            <button>Ver Ofertas</button>
+        </section>
+        <section class="content">
+            <div class="card">
+                <h3>Smartphone Pro 2024</h3>
+                <p>Características avanzadas y rendimiento sin igual.</p>
+                <button>Comprar Ahora</button>
+            </div>
+            <div class="card">
+                <h3>Portátil Ultra Rápido</h3>
+                <p>Ideal para profesionales que necesitan máxima potencia.</p>
+                <button>Más Información</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 TechStore - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
